@@ -1,2 +1,20 @@
 # Affinity
-Repositorio con el proyecto docusaurus del curso de Affinity
+
+Repositorio con el proyecto Docusaurus del curso de Affinity (3 horas). El sitio se publica en <https://resuacode.es/affinity>.
+
+## Desarrollo
+
+```bash
+npm install
+npm start      # servidor local en http://localhost:3000/affinity/
+npm run build  # genera la versión estática en ./build
+```
+
+## Despliegue
+
+El workflow `.github/workflows/deploy.yml` compila y publica en GitHub Pages en cada push a `main`.
+
+Para que se sirva en `https://resuacode.es/affinity`:
+
+1. En **Settings > Pages** del repositorio, selecciona **Source: GitHub Actions**.
+2. El dominio personalizado `resuacode.es` debe estar configurado en el sitio principal de la cuenta `resuacode` (repositorio `resuacode.github.io`); los repositorios de proyecto se sirven automáticamente bajo `/<nombre-del-repo>`. Como el repositorio se llama `Affinity`, GitHub lo sirve en `/Affinity`; para que sea `/affinity` renombra el repositorio a `affinity`.
