@@ -1,30 +1,91 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Nunito:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap');
 
-/* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-color-primary: #7b3fe4;
+  --ifm-color-primary-dark: #6c2ee0;
+  --ifm-color-primary-darker: #6526dc;
+  --ifm-color-primary-darkest: #5319b5;
+  --ifm-color-primary-light: #8a52e8;
+  --ifm-color-primary-lighter: #9159ea;
+  --ifm-color-primary-lightest: #ab82ef;
+  --af-accent: #ff6b6b;
+  --af-accent-2: #ffb347;
+  --af-teal: #1fb5ad;
+  --ifm-background-color: #fdfaf6;
+  --ifm-font-family-base: 'Nunito', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --ifm-heading-font-family: 'Fraunces', Georgia, serif;
+  --ifm-font-family-monospace: 'JetBrains Mono', SFMono-Regular, Menlo, monospace;
+  --ifm-font-size-base: 105%;
+  --ifm-line-height-base: 1.7;
+  --ifm-heading-font-weight: 800;
+  --ifm-global-radius: 12px;
+  --ifm-code-font-size: 92%;
+  --ifm-navbar-shadow: 0 2px 16px rgba(123, 63, 228, 0.12);
+  --docusaurus-highlighted-code-line-bg: rgba(123, 63, 228, 0.12);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #b794ff;
+  --ifm-color-primary-dark: #9f72ff;
+  --ifm-color-primary-darker: #9362ff;
+  --ifm-color-primary-darkest: #6f2fff;
+  --ifm-color-primary-light: #cfb6ff;
+  --ifm-color-primary-lighter: #dbc8ff;
+  --ifm-color-primary-lightest: #f5eeff;
+  --ifm-background-color: #17141f;
+  --ifm-background-surface-color: #1f1b2b;
+  --docusaurus-highlighted-code-line-bg: rgba(183, 148, 255, 0.18);
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.01em;
+}
+
+.markdown h2 {
+  padding-bottom: 0.25rem;
+  border-bottom: 3px solid var(--af-accent-2);
+  display: inline-block;
+}
+
+.navbar {
+  backdrop-filter: blur(8px);
+}
+
+.navbar__title {
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 800;
+}
+
+.button {
+  border-radius: 999px;
+  font-weight: 700;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  border-left: 4px solid var(--af-accent);
+  font-weight: 700;
+}
+
+.theme-doc-markdown img,
+.markdown img {
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12);
+}
+
+.markdown blockquote {
+  border-left: 5px solid var(--af-teal);
+  border-radius: 0 12px 12px 0;
+}
+
+.alert {
+  border-radius: 12px;
+}
+
+.footer--dark {
+  background: linear-gradient(135deg, #2a1459, #17141f);
 }
