@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Curso de Affinity',
   tagline: 'Aprende Affinity paso a paso y diseña tu propia sobrecubierta de libro',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.svg',
 
   future: {
     v4: true,
