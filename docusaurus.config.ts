@@ -17,7 +17,7 @@ const config: Config = {
   baseUrl: '/affinity/',
 
   organizationName: 'resuacode',
-  projectName: 'Affinity',
+  projectName: 'affinity',
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
@@ -34,7 +34,6 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           routeBasePath: 'docs',
-          editUrl: 'https://github.com/resuacode/Affinity/tree/main/',
         },
         blog: false,
         theme: {
@@ -45,6 +44,8 @@ const config: Config = {
   ],
 
   themeConfig: {
+    // Imagen para compartir en redes (1200 × 630 px). Descomentar al añadirla en static/img/.
+    // image: 'img/social-card.jpg',
     colorMode: {
       respectPrefersColorScheme: true,
     },
@@ -62,7 +63,7 @@ const config: Config = {
           label: 'Material del curso',
         },
         {
-          href: 'https://github.com/resuacode/Affinity',
+          href: 'https://github.com/resuacode/affinity',
           label: 'GitHub',
           position: 'right',
         },

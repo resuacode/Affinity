@@ -14,6 +14,10 @@ Al abrir un documento verás estas zonas principales (los nombres pueden variar 
 6. **Paneles (derecha)**: Capas, Color, Muestras, Carácter, Párrafo, Efectos, Estilos, Historial, Navegador.
 7. **Barra de estado**: guías rápidas y atajos de la herramienta.
 
+:::warning[📸 Captura pendiente · C03]
+Interfaz con las zonas numeradas. Instrucciones en `CAPTURAS.md`.
+:::
+
 ## Paneles imprescindibles
 
 | Panel | Uso |
@@ -23,6 +27,10 @@ Al abrir un documento verás estas zonas principales (los nombres pueden variar 
 | **Carácter / Párrafo** | Tipografía, tamaño, interlineado, alineación |
 | **Efectos** | Sombras, resplandores, contornos |
 | **Transformar** | Posición y tamaño exactos |
+
+:::warning[📸 Captura pendiente · C04]
+Paneles de la derecha. Instrucciones en `CAPTURAS.md`.
+:::
 
 ## Atajos básicos
 
@@ -40,3 +48,7 @@ Al abrir un documento verás estas zonas principales (los nombres pueden variar 
 2. Dibuja un rectángulo y un texto.
 3. Abre y cierra paneles desde el menú **Ver > Estudio**.
 4. Cambia entre estudios y observa cómo cambian las herramientas.
+
+:::warning[📸 Captura pendiente · C05]
+Menú Ver > Estudio. Instrucciones en `CAPTURAS.md`.
+:::
